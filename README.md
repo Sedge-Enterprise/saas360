@@ -1,4 +1,4 @@
-# 📦 saas360
+# 🌀 saas360
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Repo Size](https://img.shields.io/github/repo-size/Sedge-Enterprise/saas360)
@@ -8,64 +8,101 @@
 ![Stars](https://img.shields.io/github/stars/Sedge-Enterprise/saas360)
 ![Watchers](https://img.shields.io/github/watchers/Sedge-Enterprise/saas360)
 
-**SaaS360** is a modular blueprint for building scalable, secure, and brand-ready SaaS applications. Designed for rapid deployment and enterprise-grade customization, this framework supports multi-tenant architecture, compliance workflows, and branded onboarding experiences.
-# 📦 saas360
+> **SaaS360** is Sedge Enterprise’s modular blueprint for building secure, scalable, and brand-ready SaaS applications. It integrates Azure-native architecture, compliance workflows, and branded onboarding experiences for enterprise deployment.
 
-**SaaS360** is a modular blueprint for building scalable, secure, and brand-ready SaaS applications. Designed for rapid deployment and enterprise-grade customization, this framework supports multi-tenant architecture, compliance workflows, and branded onboarding experiences.
+![Logo](https://raw.githubusercontent.com/Sedge-Enterprise/saas360/refs/heads/main/saas360.png)
 
 ---
 
-## 🚀 App Blueprint Overview
+## 🧭 Project Overview
 
-### 🔧 Core Modules
-- **Authentication & Identity**
-  - Microsoft Entra ID / Firebase integration
-  - Multi-factor authentication (MFA)
-  - Role-based access control (RBAC)
+**BizCopilot**, the flagship assistant within saas360, helps small and medium businesses automate:
+- 📊 Financial reporting  
+- 📈 Data analytics  
+- ✅ Task management  
 
-- **Subscription & Billing**
-  - Tiered plans with feature gating
-  - Stripe or Paystack integration
-  - Usage metering and invoicing
+This repo supports a full Azure deployment architecture with high availability, secure data handling, and cost optimization.
 
-- **Compliance & Security**
-  - Audit logging
-  - Data retention policies
-  - Secure cloud deployment scripts (EasyFile-ready)
+---
 
-- **User Onboarding**
-  - Branded walkthroughs and tooltips
-  - Modular training card integration
-  - Autopilot provisioning for Windows endpoints
+## 🧱 Azure Architecture Blueprint
 
+| Layer | Services | Purpose |
+|-------|----------|---------|
+| **Frontend** | Azure App Service / Static Web Apps, Azure CDN | UI delivery, global performance |
+| **Backend** | Azure Functions / App Service API, Logic Apps | Serverless processing, automation |
+| **Database** | Azure SQL Database, Azure Blob Storage | Structured data + file storage |
+| **Analytics** | Azure Synapse / Power BI Embedded | Visualization and insights |
+| **Security & Identity** | Azure AD, Azure Key Vault | Authentication, secrets management |
+| **Monitoring** | Azure Monitor, Application Insights, Log Analytics | Health and performance tracking |
+
+---
+
+## 🔐 Identity & Access Management
+
+- Azure AD tenant integration  
+- Role-Based Access Control (RBAC)  
+- Multi-Factor Authentication (MFA)  
+
+---
+
+## 💰 Cost Optimization
+
+Use Azure Pricing Calculator to estimate:
+- App Services  
+- Azure SQL  
+- Blob Storage  
+- Azure AD Premium  
+- Application Insights  
+
+**Tactics:** Auto-scaling, right-sizing, reserved instances.
+
+---
+
+## 🛡 Security Design
+
+- Network Security Groups (NSGs), Azure Firewall  
+- Encryption at rest and in transit  
+- Azure Defender for Cloud  
+- Azure Key Vault for sensitive configs  
+
+---
+
+## 🧩 Core Modules
+
+- **Authentication & Identity**  
+- **Subscription & Billing**  
+- **Compliance & Security**  
+- **User Onboarding**  
 - **Admin Console**
-  - Tenant management dashboard
-  - Feature toggles and rollout controls
-  - Real-time analytics and user insights
 
 ---
 
-## 🧩 Extensible Features
-- **Affiliate Marketing Engine**
-  - Banner creation and SEO optimization
-  - Partner tracking and payout logic
+## 🔄 Extensible Features
 
-- **Campaign Synergy Mapping**
-  - Visual blueprinting for outreach
-  - Modular content drops via #TheScribesDen
-
+- **Affiliate Marketing Engine**  
+- **Campaign Synergy Mapping**  
 - **Documentation & Training**
-  - Python Essentials modules
-  - Compliance playbooks for Microsoft stack
-  - Certification outreach logistics
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend:** React / Next.js / Tailwind CSS  
-- **Backend:** Node.js / Firebase Functions / Python microservices  
-- **Cloud:** Azure / GCP / Supabase  
-- **CI/CD:** GitHub Actions / Docker / Terraform  
+## 👥 Contributors & Roles
+
+| Name | Role | Focus |
+|------|------|-------|
+| Khutjo Satekge | Infra & Setup | Blueprint setup, Azure provisioning |
+| Samuel Ugbaja | Identity & Governance | User Identity Layer, RBAC |
+| Raydo Matthee | Strategic Architect | Knowledge assessment, blueprinting |
+| Nokuthula Mangweni | Planner & Compliance | MS Learn path, compliance layer |
+| Hamzah Mahomed | Infra Support | Resource group provisioning |
+
+---
+
+## 📦 Resource Groups
+
+- `learn360` – Training & onboarding  
+- `secure360` – Compliance & identity  
+- `bizCopilot` – Business logic & automation  
 
 ---
 
@@ -80,3 +117,16 @@ npm install
 
 # Start development server
 npm run dev
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## ✨ Vision
+
+SaaS360 is more than a framework—it's a launchpad for visionary builders, educators, and strategists. Whether you're deploying fintech workflows, training modules, or branded outreach campaigns, this blueprint adapts to your mission.
